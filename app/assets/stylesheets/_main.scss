@@ -34,18 +34,18 @@
   height: 82px;
   display: -webkit-flex;
   display: flex;
-}
 
-.leftHeader__box__username{
-  height: 82px;
-  width: 300px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 82px;
-  text-align: left;
-  margin-left: 20px;
-}
+  &__username{
+    height: 82px;
+    width: 300px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 82px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
 
 .leftHeader__box__menu{
   height: 100%;
@@ -68,7 +68,7 @@
   width: 30px;
   margin: auto;
 }
-
+}
 .groups{
   height: calc(100vh - 100px);
   width: 300px;
@@ -78,21 +78,22 @@
 .group{
   width: 300px;
   padding: 20px 0 20px;
-}
-.group__groupName{
+
+&__groupName{
   margin-left: 20px;
   font-size: 15px;
   width: 300px;
   color: #ffffff;
 }
 
-.group__comment{
+&__comment{
   font-size: 11px;
   width: 300px;
   color: #ffffff;
   text-align: left;
    margin-top: 5px;
    margin-left: 20px;
+}
 }
 .mainBox{
   width: calc(100vw - 300px);
@@ -192,16 +193,18 @@ padding-left: 20px;
   margin-left: 10px;
   background-color:#ffffff;
   position: relative; 
-}
-.inputBox__text{
+
+&__text{
   font-size: 16px;
   position: absolute;
   left: 10px;
 }
 
-.inputBox__image{
+
+&__image{
   position: absolute;
   right: 10px;
+}
 }
 
 .sendBtn{
