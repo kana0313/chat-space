@@ -1,3 +1,10 @@
-@import "./reset";
 @import "font-awesome";
-@import "./main";
+@import "./colors";
+@import "./size";
+@import "./reset";
+@import "./mixin";
+@import "./vendor_prefix";
+@import "./side_bar";
+@import "./chat";
+@import "./user";
+@import "./messages.scss"
