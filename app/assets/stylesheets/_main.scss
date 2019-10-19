@@ -20,71 +20,71 @@
   display: flex;
 }
 
-.leftbox{
-  width: 300px;
-  height: 100vh;
-}
-.leftHeader{
-  background-color:#253141;
-  height: 82px;
-  padding-top: 18px;
-  color:#fff;
+// .leftbox{
+//   width: 300px;
+//   height: 100vh;
+// }
+// .leftHeader{
+//   background-color:#253141;
+//   height: 82px;
+//   padding-top: 18px;
+//   color:#fff;
 
-  &__box{
-    display: -webkit-flex;
-    display: flex;
+//   &__box{
+//     display: -webkit-flex;
+//     display: flex;
 
-    &__username{
-      width: 300px;
-      font-size: 16px;
-      font-weight: bold;
-      line-height: 82px;
-      text-align: left;
-      margin-left: 20px;
-    }
+//     &__username{
+//       width: 300px;
+//       font-size: 16px;
+//       font-weight: bold;
+//       line-height: 82px;
+//       text-align: left;
+//       margin-left: 20px;
+//     }
 
-    &__menu{
-    margin-top:25px;
-    height: 100%;
-    width: 100px;
-    display: -webkit-flex;
-    display: flex;
+//     &__menu{
+//     margin-top:25px;
+//     height: 100%;
+//     width: 100px;
+//     display: -webkit-flex;
+//     display: flex;
 
-      &__newGroup{
-        margin: auto;
-      }
+//       &__newGroup{
+//         margin: auto;
+//       }
                 
-      &__edit{
-        margin: auto;
-      }
-    }
-  }
-}
-.groups{
-  height: calc(100vh - 100px);
-  width: 300px;
-  background-color:#2F3e51;
-  color: #ffffff;
-}
+//       &__edit{
+//         margin: auto;
+//       }
+//     }
+//   }
+// }
+// .groups{
+//   height: calc(100vh - 100px);
+//   width: 300px;
+//   background-color:#2F3e51;
+//   color: #ffffff;
+// }
 
-.group{
-  width: 300px;
-  padding: 20px 0 20px;
+// .group{
+//   width: 300px;
+//   padding: 20px 0 20px;
 
-&__groupName{
-  margin-left: 20px;
-  font-size: 15px;
+// &__groupName{
+//   margin-left: 20px;
+//   font-size: 15px;
   
-}
+// }
 
-&__comment{
-  font-size: 11px;
-  width: 300px;
-  text-align: left;
-   margin-top: 5px;
-   margin-left: 20px;
-}
-}
+// &__comment{
+//   font-size: 11px;
+//   width: 300px;
+//   text-align: left;
+//    margin-top: 5px;
+//    margin-left: 20px;
+// }
+// }
 .mainBox{
   width: calc(100vw - 300px);
   height: 100vh; 
