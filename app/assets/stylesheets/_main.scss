@@ -165,41 +165,35 @@ padding-left: 20px;
 .form{
   background-color: darkgrey;
   bottom: 0;
-  height: 90px;
-  padding: 0 40px;
-}
-.newMessage{
-  background-color: darkgrey;
   height: 50px;
+  padding: 20px 40px;
+}
+.new_message{
   display: -webkit-flex;
   display: flex;
-  width: 100%;
-  padding: 20px 0;
-  color: #434A54;
-  
+  position: relative;
 }
-
-.inputBox{
-  width: 1060px;
-  height: 50px;
-  margin-left: 10px;
-  background-color:#ffffff;
-  position: relative; 
-
-&__text{
+.form__message{
   font-size: 16px;
-  position: absolute;
-  left: 10px;
+  color: #434A54;
+  height: 50px;
+  width: calc(100vw - 495px);
+}
+.form__message::placeholder{
+padding-left: 10px;
+
+}
+.form__mask{
+  position:absolute;
+  top: 13px;
+  right: 130px;
 }
 
-
-&__image{
-  position: absolute;
-  right: 10px;
-}
+.form__mask__image{
+ right: 10px;
 }
 
-.sendBtn{
+.form__submit{
   background: #38AEF0;
   margin-left: 15px;
   color: #ffffff;
@@ -207,4 +201,9 @@ padding-left: 20px;
   height: 50px;
   width: 100px;
   text-align:center
+}
+
+
+.hidden{
+  display: none;
 }
