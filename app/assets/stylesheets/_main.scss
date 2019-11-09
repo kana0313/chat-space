@@ -130,6 +130,7 @@ padding-left: 20px;
 }
 
 .messages{
+  overflow: scroll;
   background-color:khaki;
   width: calc(100vw - 300px);
   height:calc(100vh - 190px - 26px); 
