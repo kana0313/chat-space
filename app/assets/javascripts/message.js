@@ -3,15 +3,15 @@ $(function(){
   var image = message.image?`<img src="${message.image}">` : "" ;
   var html =
       `<div class="message" data-message-id="${message.id}">
-        <div class="upper-message">
-          <div class="upper-message__user-name">
+        <div class="message__info">
+          <div class="message__info__talker">
             ${message.user_name}
           </div>
-          <div class="upper-message__date">
+          <div class="message__info__date">
             ${message.created_at}
           </div>
         </div>
-        <div class="lower-message">
+        <div class="message__text">
           <p class="lower-message__content">
             ${message.content}
           </p>
@@ -37,7 +37,6 @@ $('.new_message').on('submit', function(e){
 
 //  dataはcreate.json.jbuilderの中身が全部入っている
   .done(function(data){
-    console.log(data)
     var html = buildHTML(data);
     $('.messages').append(html);
 // $('要素名').animate({'動かすプロパティ' : '動かす縦横の幅'});
