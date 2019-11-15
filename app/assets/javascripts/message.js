@@ -68,7 +68,6 @@ $('.new_message').on('submit', function(e){
   .done(function(messages) {
     //追加するHTMLの入れ物を作る
     // var insertHTML = '';
-    console.log(messages)
     // 配列messagesの中身一つ一つを取り出し、HTMLに変換したものを入れ物に足し合わせる
         messages.forEach(function(message){
           var appendHTML = buildHTML(message)
