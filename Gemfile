@@ -62,4 +62,9 @@ gem 'rspec-rails', '~> 3.5'
   gem 'rails-controller-testing'
   gem 'factory_bot_rails'
   gem 'faker'
-  gem 'pry-rails'
+
+group :production do
+  gem 'unicorn', '5.4.1'
+end
+
+gem 'pry-rails'
