@@ -11,7 +11,7 @@
   
 
       .mainHeader__btn
-        Edit
+        = link_to 'EDIT', edit_group_path(@group), data:{turbolinks: false}
     .messages
       = render partial: 'message', collection: @messages
     .form
