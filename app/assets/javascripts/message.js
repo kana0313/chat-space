@@ -2,7 +2,7 @@ $(function(){
   function buildHTML(message){
   var image = message.image?`<img src="${message.image}">` : "" ;
   var html =
-      `<div class="message" data-message-id="${message.id}">
+      `<div class="message" data-id="${message.id}">
         <div class="message__info">
           <div class="message__info__talker">
             ${message.user_name}
@@ -51,7 +51,7 @@ $('.new_message').on('submit', function(e){
 
  var reloadMessages = function() {
   //カスタムデータ属性を利用し、ブラウザに表示されている最新メッセージのidを取得
-  last_message_id = $(".message:last").data("message-id")
+  last_message_id = $(".message:last").data("id")
   // user.js l59と一緒
   // var groupId = location.href 
 
@@ -85,4 +85,6 @@ $('.new_message').on('submit', function(e){
   setInterval(reloadMessages, 5000);
 
 });
+
+
 

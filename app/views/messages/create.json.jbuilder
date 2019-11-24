@@ -7,3 +7,6 @@ json.user_name     @message.user.name
 json.id            @message.id
 
 # バリューは_message.html.hamlと一致させる
+
+
+
