@@ -6,12 +6,13 @@
         .mainHeader__leftBox__currentGroup
           = @group.name
         .mainHeader__leftBox__memberList
+          Member : 
           - @member.each do |member|
             = member.name
   
 
       .mainHeader__btn
-        = link_to 'EDIT', edit_group_path(@group), data:{turbolinks: false}
+        = link_to 'Edit', edit_group_path(@group), data:{turbolinks: false}
     .messages
       = render partial: 'message', collection: @messages
     .form
