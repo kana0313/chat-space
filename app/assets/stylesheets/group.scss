@@ -52,7 +52,8 @@ li {
     padding: 10px 15px;
     box-sizing: border-box;
   }
-  &__action-btn {
+  &__action-btn :not(:root){
+    
     display: inline-block;
     padding: 12px 20px;
     color: #fff;
